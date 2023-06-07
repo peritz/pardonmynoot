@@ -1,4 +1,54 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
-theme = "chringel-hugo-theme"
+baseURL = '/'
+languageCode = 'en-gb'
+title = 'Pardon my Noot'
+theme = "m10c"
+
+author = "Peritz"
+copyright = "Copyright © 2023, Peritz (https://github.com/peritz), all rights reserved"
+
+pluralizelisttitles = false
+paginate = 10
+enableEmoji = true
+
+[menu]
+    [[menu.main]]
+        identifier = "home"
+        name = "Home"
+        url = "/"
+        weight = 1
+    
+    [[menu.main]]
+        identifier = "rss"
+        name = "RSS"
+        url = "/index.xml"
+        weight = 2
+    
+    [[menu.main]]
+        identifier = "tags"
+        name = "Tags"
+        url = "/tags/"
+        weight = 3
+    
+    [[menu.main]]
+        identifier = "about"
+        name = "About"
+        url = "/about/"
+        weight = 4
+
+[params]
+    author = "Peritz"
+    description = "Security penguin and privacy nut. Ready your tinfoil hats and let's get hacking."
+    avatar = "/images/peritz-face.png"
+    [[params.social]]
+        icon = "github"
+        name = "GitHub"
+        url = "https://github.com/peritz"
+    
+    [params.style]
+        darkestColor = "#1f1f1f"
+        darkColor = "#2a2a2a"
+        lightColor = "#bbbbbb"
+        lightestColor = "#d0d0d0"
+        primaryColor = "#703acb"
+
+
