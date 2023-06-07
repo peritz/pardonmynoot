@@ -8,6 +8,5 @@ draft: false
 
 I am Peritz. I hack and I hide from the public for non-sinister tinfoil-hat reasons. This is me:
 
-![[/images/peritz.png]]
+![](/images/peritz.png)
 
-One more thing: I love cheese.
