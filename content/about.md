@@ -10,3 +10,4 @@ I am Peritz. I hack and I hide from the public for non-sinister tinfoil-hat reas
 
 ![[/images/peritz.png]]
 
+One more thing: I love cheese.
