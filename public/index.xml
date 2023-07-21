@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pardon my Noot</title>
+    <link>//pardonmynoot.com/</link>
+    <description>Recent content on Pardon my Noot</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>Peritz (https://github.com/peritz), all rights reserved</copyright><atom:link href="//pardonmynoot.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Peritz</title>
+      <link>//pardonmynoot.com/about/</link>
+      <pubDate>Wed, 07 Jun 2023 17:21:52 +0100</pubDate>
+      
+      <guid>//pardonmynoot.com/about/</guid>
+      <description>About Me Who am I? I am Peritz. If you&amp;rsquo;re confused, here is a photo:
+I am a security professional and privacy enthusiast with experience and knowledge in pentesting, development, and administration of cloud infrastructure, web applications, Linux applications, container technology, and a whole load of other stuff. I&amp;rsquo;ve also got my own non-technical hobbies, but this is that kind of space.
+What&amp;rsquo;s this blog thing for then? I&amp;rsquo;ve been a keen advocate for security and privacy in my personal life for a long time.</description>
+    </item>
+    
+  </channel>
+</rss>

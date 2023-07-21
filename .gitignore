@@ -22,7 +22,7 @@ go.work
 
 
 # Generated files by hugo
-/public/
+# /public/ - # Uploading public files to git so we can deploy with CI/CD
 /resources/_gen/
 /assets/jsconfig.json
 hugo_stats.json
