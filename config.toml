@@ -58,6 +58,7 @@ enableEmoji = true
         {name = "github", url = "https://github.com/peritz"},
         {name = "email", url = "mailto:peritz@pardonmynoot.com"}
     ]
+    pygmentsStyle = "monokai"
     [params.style]
         darkestColor = "#1f1f1f"
         darkColor = "#2a2a2a"
