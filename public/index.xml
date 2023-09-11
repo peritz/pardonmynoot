@@ -6,7 +6,18 @@
     <description>Recent content on Pardon my Noot</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>Peritz (https://github.com/peritz), all rights reserved</copyright><atom:link href="//pardonmynoot.com/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>Peritz (https://github.com/peritz), all rights reserved</copyright>
+    <lastBuildDate>Fri, 04 Aug 2023 11:52:39 +0100</lastBuildDate><atom:link href="//pardonmynoot.com/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Intro to Personal Security</title>
+      <link>//pardonmynoot.com/posts/persec-01/</link>
+      <pubDate>Fri, 04 Aug 2023 11:52:39 +0100</pubDate>
+      
+      <guid>//pardonmynoot.com/posts/persec-01/</guid>
+      <description>Photo by Annie Spratt on Unsplash
+Personal Security The world in recent decades has undergone a revolutionary shift in the way we work, live, communicate, and interact as a society. 30 years ago we were debating whether or not to buy into this whole internet thing, deciding when the best time was to interrupt your phone line. Today, we&amp;rsquo;re faced with AI which can help draft legally-worded letters to landlords and lawyers (and you).</description>
+    </item>
+    
     <item>
       <title>About Peritz</title>
       <link>//pardonmynoot.com/about/</link>
