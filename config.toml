@@ -14,6 +14,10 @@ enableEmoji = true
     [markup.goldmark]
         [markup.goldmark.renderer]
             unsafe = true
+    [markup.tableOfContents]
+        startLevel = 1
+        endLevel = 3
+        ordered = false
 
 [menu]
     [[menu.main]]
@@ -58,6 +62,9 @@ enableEmoji = true
         {name = "github", url = "https://github.com/peritz"},
         {name = "email", url = "mailto:peritz@pardonmynoot.com"}
     ]
+    customHeadHTML = '''
+        <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    '''
     pygmentsStyle = "monokai"
     [params.style]
         darkestColor = "#1f1f1f"

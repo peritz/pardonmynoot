@@ -5,8 +5,9 @@ date: 2023-08-04T11:52:39+01:00
 image: /images/travel-kit.jpg
 tags:
   - personal-security
+showTableOfContents: true
 type: post
-draft: true
+draft: false
 ---
 
 {{< figure src="/images/travel-kit.jpg" caption="Photo by Annie Spratt on Unsplash" alt="Equipment for travelling lying flat on a table." >}}
@@ -14,11 +15,10 @@ draft: true
 # Personal Security
 
 The world in recent decades has undergone a revolutionary shift in the way we
-work, live, communicate, and interact as a society in general. 30 years ago we
-were debating whether or not to buy into this whole internet thing, which
-required purchasing a connection which would interrupt your phone line. Today,
-we're faced with AI which can help draft legally-worded letters to landlords and
-lawyers.
+work, live, communicate, and interact as a society. 30 years ago we were
+debating whether or not to buy into this whole internet thing, deciding when the
+best time was to interrupt your phone line. Today, we're faced with AI which can
+help draft legally-worded letters to landlords and lawyers (and you).
 
 Whenever you travel to a new country or city, you might pick up a guide book and
 do some research. Among the countless examples of the local cuisine and details
@@ -27,12 +27,12 @@ and avoid them. When you buy a house you'll hire a solicitor or mortgage broker
 who will help guide you through the process of obtaining a loan from the
 bank, how to increase your chances, and how to legally protect yourself from
 common pitfalls. When you drive on a road you'll see warning signs about hidden
-dips, roundabouts, wildlife crossings, sudden bends, and much much more. When
-you arrive on the internet (which I guarantee you is more than you realise), you
-will find unclear notices about cookies... and that's about it.
+dips, roundabouts, wildlife crossings, sudden bends. When you arrive on the
+internet (which I guarantee you is more than you realise), you will find unclear
+notices about cookies... and that's about it.
 
-The internet has undergone collosal change in recent years, and the change is
-accelerating, with little sign of slowing down, and yet little <u>concrete</u>
+The internet has undergone collosal change in recent years. This change is
+accelerating, with little sign of slowing down. However, little <u>concrete</u>
 advice exists for how to navigate this environment safely.
 
 
@@ -41,8 +41,9 @@ advice exists for how to navigate this environment safely.
 **Personal security** is the measures that an individual takes in order to
 reduce, deter, and delay crime, potential crime, or a *security incident* which
 has the capacity to affect said individual. Being in a secure state means that
-adequate measures have been taken to achieve the above definition, and to have
-procedures in place to mitigate the affects of an incident against yourself.
+adequate measures have been taken to achieve personal security objectives, and
+to have procedures in place to mitigate the affects of an incident against
+yourself.
 
 **Online hygiene** is one such measure that an individual can take in order to
 achieve personal security. This involves creating and maintaining a clean, tidy,
@@ -61,8 +62,10 @@ clearer as we go through, particularly what I mean by "scope".
 
 ## Why should we care
 
+{{< figure src="/images/man_shrug.png" alt="Man shrugging emoji." width="50%" >}}
+
 Personal security is not done out of fear. We all acknowledge that bad things
-can happen in the world and we inherently understand the concept of risk, and we
+can happen in the world and we inherently understand the concept of risk. We
 all take steps to reduce it. When you leave your house you lock your door, when
 you cross the road you look left and right, when you are at a busy event you
 arrange an emergency meeting point with your children. None of these things are
@@ -91,7 +94,7 @@ that's not the only way that you can lose valuable information.
 Mark's story is only one example of when things have gone wrong. No one would
 expect that sharing a medical concern with a professional consultant would
 result in the loss of all of their family photos and valuable online data.
-Unfortunately it happens, and not just for the same reason as Mark.
+Unfortunately it happens, for a wide variety of reasons.
 
 In cyber security there is a common framework used when assessing risk within a
 business called the CIA triad. This acronym stands for Confidentiality,
@@ -101,6 +104,7 @@ in confidentiality (you'll read in the story that Google employees had access to
 view the photo which caused the issue). Mark lost access to his information, it
 was unavailable.
 
+{{< figure src="/images/cia_triad.png" alt="Confidentiality, integrity, and availability are the three pillars of information security." attr="*Source: https://www.activeexploit.com/tipofday/cia-triad-the-security-triad-to-learn-love-and-design-by/*" width="50%" >}}
 
 ## How is this going to help?
 
@@ -123,10 +127,12 @@ See this as your highway code to the internet.
 The aim is to cover the lowest effort, highest reward topics first. As we move
 through you may notice that the topics get more advanced and take a little more
 effort to implement. It's important to remember that security is a marathon, not
-a sprint and any action you take no matter how small is one step towards a safer
-life.
+a sprint and any action you take - no matter how small - is one step towards a
+safer life.
 
-#### Upload of Personal Information and Official Documents
+> Note that this section is subject to updates as the series progresses.
+
+#### *Upload of Personal Information and Official Documents*
 
 This post will discuss the implications of uploading personal information to the
 internet. I think that this is something that can apply to everyone regardless
@@ -139,17 +145,26 @@ We'll also discuss what a breach of this data means and what actions you can
 take when you realise that you've given away your information to the wrong
 person.
 
-#### Passwords
+#### *Passwords*
 
 A blog series about security wouldn't be complete without passwords. I'll
 discuss why we care so much about passwords and why they are the key to
 unlocking or destroying your digital life.
 
-#### Multi-factor Authentication
+#### *Multi-factor Authentication*
 
 Unfortunately, passwords aren't always enough, *especially* for your most
 important online accounts. I'll explain what multi-factor authentication (MFA)
 is, why we care about it, what methods there are, and how to implement them.
+
+#### *Virtual Private Networks (VPNs)*
+
+Another classic to tackle. I'll explain what exactly a VPN is, how it works,
+and when it is appropriate to use. I'll also explain why we care about hiding
+our IP address in the first place. Some common pitfalls and mistakes will be
+discussed, along with some issues you might experience when using VPNs. I'll
+finish off the post by giving details on how exactly to obtain and use a
+respectable VPN on your devices.
 
 --- 
 
@@ -158,12 +173,14 @@ is, why we care about it, what methods there are, and how to implement them.
 Below are some of the common questions I've been asked when I talk to people
 about personal security in their lives.
 
-#### Why would anyone want to hack me?
+> Note that this section is subject to updates as the series progresses.
+
+#### *Why would anyone want to hack me?*
 
 True that you might have nothing of particular value to a hacker. Generally
 speaking, unless you're a high-profile individual, no one will be going out of
 their way to make your life miserable by hacking you. Unfortunately, it's
-nothing to do with you and the hackers' interest in you. It's not that the
+nothing to do with you or the hackers' interest in you. It's not that the
 hacker cares about you, it's that the hacker doesn't care *that* it's you.
 
 Hacks against individuals are highly automated and target everyone that they
@@ -171,12 +188,13 @@ can. It's only once you start to interact with them that they care who you are,
 and sometimes it won't even get as far as that before something bad has already
 happened.
 
-As well as that, security isn't all about getting hacked. What happens if you
+In saying that, security isn't all about getting hacked. What happens if you
 lose your phone or forget the password to your email and social media? What
 happens if your kid decides to buy a bunch of stuff from an app on your phone?
-These are also the questions we aim to answer.
+These are situations affecting confidentiality, integrity, and availability,
+and are therefore security-related.
 
-#### I've got nothing to hide, so why should I care about privacy?
+#### *I've got nothing to hide, so why should I care about privacy?*
 
 On the surface, a tough question to argue against. If you've got nothing to hide
 then sure, who cares about what people out there on the internet know? But we
@@ -191,6 +209,11 @@ and a scan of your face and fingerprints.
 
 You wouldn't tell it to a stranger on the street, so why tell it to a stranger
 on the web?
+
+---
+
+*If you have any questions, please get in touch at
+[peritz@pardonmynoot.com](mailto:peritz@pardonmynoot.com).*
 
 [^mark-google]: Source: https://www.independent.co.uk/tech/google-surveillance-photo-mark-child-porn-b2149861.html
 
