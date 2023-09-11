@@ -1,0 +1,13 @@
+section {
+    margin: auto;
+    padding-top: 10px;
+}
+
+div#sectionleft {
+    float: left;
+    margin-right: 10px;
+}
+
+div#sectionright {
+    margin: auto;
+}
