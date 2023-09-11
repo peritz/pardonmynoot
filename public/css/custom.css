@@ -11,3 +11,7 @@ div#sectionleft {
 div#sectionright {
     margin: auto;
 }
+
+ul.social-icons-list {
+    display: inline-block !important;
+}
