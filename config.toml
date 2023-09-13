@@ -60,10 +60,12 @@ enableEmoji = true
     footer = "Peritz (https://github.com/peritz), all rights reserved"
     socialIcons = [
         {name = "github", url = "https://github.com/peritz"},
-        {name = "email", url = "mailto:peritz@pardonmynoot.com"}
+        {name = "email", url = "mailto:peritz@pardonmynoot.com"},
+        {name = "mastodon", url = "https://infosec.exchange/@peritz"}
     ]
     customHeadHTML = '''
         <link rel="stylesheet" type="text/css" href="/css/custom.css">
+        <link rel="me" href="https://infosec.exchange/@peritz">
     '''
     pygmentsStyle = "monokai"
     [params.style]
