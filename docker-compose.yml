@@ -3,6 +3,6 @@ services:
   web:
     image: httpd:2.4
     volumes:
-      - ./public/:/usr/local/apache2/htdocs/
+      - $PWD/public/:/usr/local/apache2/htdocs/
     ports:
       - 8989:80
