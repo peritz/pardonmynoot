@@ -50,6 +50,12 @@ enableEmoji = true
         url = "/about/"
         weight = 50
 
+    [[menu.main]]
+        identifier = "now"
+        name = "Now"
+        url = "/now/"
+        weight = 60
+
 [params]
     author = "Peritz"
     description = "Security penguin and privacy nut. Ready your tinfoil hats and let's go on an adventure."
