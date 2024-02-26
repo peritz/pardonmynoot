@@ -1,0 +1,9 @@
+{
+  "livePreview": false,
+  "vimMode": true,
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "static/images",
+  "alwaysUpdateLinks": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "content/posts"
+}

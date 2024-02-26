@@ -1,0 +1,1 @@
+{{% relref "/posts/xyz" %}}
