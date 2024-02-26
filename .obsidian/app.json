@@ -5,5 +5,6 @@
   "attachmentFolderPath": "static/images",
   "alwaysUpdateLinks": true,
   "newFileLocation": "folder",
-  "newFileFolderPath": "content/posts"
+  "newFileFolderPath": "content/posts",
+  "showLineNumber": true
 }

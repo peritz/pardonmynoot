@@ -13,28 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/post.md",
+                "file": "content/now/index.md",
                 "mode": "source",
+                "backlinks": false,
                 "source": true
               }
-            }
-          },
-          {
-            "id": "8909a8df7095a3e4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
       },
       {
-        "id": "358191738561dbcc",
+        "id": "e478888b07219470",
         "type": "tabs",
         "children": [
           {
-            "id": "4305af0d5c6664ee",
+            "id": "64300cda395b3092",
             "type": "leaf",
             "state": {
               "type": "hugo-preview-view",
@@ -83,7 +76,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "c3e44bf72c50f77b",
@@ -110,7 +103,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "templates/post.md"
+                "file": "content/now/index.md"
               }
             }
           },
@@ -137,38 +130,42 @@
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "0ea73aa0cfeaeb01",
+  "active": "64300cda395b3092",
   "lastOpenFiles": [
-    "content/posts/2024-02-25-secure-setup-01.md",
-    "content/posts/2023-08-04-intro-to-personal-security.md",
     "content/about/index.md",
-    "templates/figure.md",
-    "templates/relref.md",
+    "content/now/index.md",
+    "public/slug/index.html",
+    "public/slug",
+    "public/now/untitled/index.html",
+    "public/now/untitled",
+    "public/now/index.xml",
+    "public/now/index.html",
+    "public/now",
     "templates/post.md",
-    "templates",
-    "public/js/bundle.min.2934be42fbaa62ccb6e280c67072db90dd7d205643ea86bafb97b174443e6e18.js",
-    "themes/m10c/theme.toml",
-    "themes/m10c/static/avatar.jpg",
-    "themes/m10c/static",
-    "themes/m10c/layouts/partials/pagination.html",
-    "themes/m10c/layouts/partials/icon.html",
-    "themes/m10c/layouts/_default/terms.html",
-    "themes/m10c/layouts/_default/single.html",
-    "themes/m10c/layouts/_default/list.html",
-    "themes/m10c/layouts/_default/baseof.html",
-    "themes/m10c/images/tn.png",
-    "themes/m10c/images/screenshot.png",
-    "themes/m10c/images/cover.png",
+    "content/now",
+    "public/fonts/Lato-Regular.ttf",
+    "public/fonts/Lato-Bold.ttf",
+    "public/svg/icons/tiktok.svg",
+    "public/svg/icons/discord.svg",
+    "public/svg/icons/twitter.svg",
+    "public/svg/icons/linkedin.svg",
+    "public/svg/icons/dribbble.svg",
+    "public/svg/icons/angellist.svg",
+    "public/svg/icons/reddit.svg",
+    "public/svg/icons/youtube.svg",
+    "public/svg/icons/twitch.svg",
+    "public/svg/icons/xing.svg",
     "themes/m10c/exampleSite/content/posts/test-9.md",
     "themes/m10c/exampleSite/content/posts/test-8.md",
     "themes/m10c/exampleSite/content/posts/test-7.md",
     "themes/m10c/exampleSite/content/posts/test-6.md",
     "themes/m10c/exampleSite/content/posts/test-5.md",
-    "themes/m10c/exampleSite/content/posts/test-3.md",
     "themes/m10c/exampleSite/content/posts/test-4.md",
+    "themes/m10c/exampleSite/content/posts/test-3.md",
     "themes/m10c/exampleSite/content/posts/test-2.md",
     "themes/m10c/exampleSite/content/posts/test-1.md",
     "themes/m10c/exampleSite/content/posts/migrate-from-jekyll.md",
@@ -178,15 +175,11 @@
     "themes/m10c/exampleSite/content/about.md",
     "themes/m10c/README.md",
     "themes/m10c/LICENSE.md",
-    "themes/gokarna/static/svg/icons/youtube.svg",
-    "themes/gokarna/static/svg/icons/ycombinator.svg",
-    "themes/gokarna/static/svg/icons/xing.svg",
-    "themes/gokarna/static/svg/icons/vimeo.svg",
-    "themes/gokarna/static/svg/icons/twitter.svg",
-    "themes/gokarna/static/svg/icons/twitch.svg",
-    "themes/gokarna/exampleSite/content/projects/_index.md",
     "themes/gokarna/exampleSite/content/projects/tatooine.md",
+    "themes/gokarna/exampleSite/content/projects/hydra.md",
     "themes/gokarna/exampleSite/content/projects/bludhaven.md",
-    "themes/gokarna/exampleSite/content/projects/hydra.md"
+    "themes/gokarna/exampleSite/content/projects/_index.md",
+    "themes/gokarna/exampleSite/content/posts/theme-documentation-basics.md",
+    "themes/gokarna/exampleSite/content/posts/theme-documentation-advanced.md"
   ]
 }
