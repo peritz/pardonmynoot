@@ -134,8 +134,9 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "64300cda395b3092",
+  "active": "0ea73aa0cfeaeb01",
   "lastOpenFiles": [
+    "update.sh",
     "content/about/index.md",
     "content/now/index.md",
     "public/slug/index.html",
